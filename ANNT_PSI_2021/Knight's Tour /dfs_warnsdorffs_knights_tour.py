@@ -4,9 +4,6 @@ from typing import List, Tuple, Optional
 from plot_knights_tour import plot_knight_tour
 import argparse
 
-size_of_board = 8
-start_square = (0,0)
-
 MOVE_OFFSETS = (
     (-1, -2),
     (1, -2),
