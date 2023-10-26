@@ -79,7 +79,7 @@ def plot_knight_tour(solution, output_filename='animated_knight_tour.gif'):
             ax.text(chessboard_start - 0.8, chessboard_end - 1 - i, str(numbers[i]), ha='right', va='center', fontsize=12)
         
         # Add title to the frame
-        starting_square = f"{letters[solution[0][0]]}{numbers[-solution[0][1]-1]}"
+        starting_square = f"{letters[solution[0][1]]}{numbers[-solution[0][0]-1]}"
         ax.text(chessboard_start + board_dimension/2 - 0.25, chessboard_start - 1.5, f"Knight's Tour ({starting_square})", ha='center', va='top', fontsize=14, fontweight='bold')
 
         ax.axis('off')
