@@ -2,7 +2,7 @@
 
 ## About
 
-The Isolation Knight Game is a two-player strategy game hosted within the ANNT_PSI 2021 project. Players control knights on an 8x8 chessboard. The objective is to move your knight in such a way that your opponent is left with no valid moves. Knights move in typical chess L-shapes, and once a square is visited, it cannot be visited again. The game ends when one of the knights cannot make a valid move. The player with the immobile knight loses. The game provides the option to play against an AI agent, making it even more challenging.
+The Isolation Knight Game is a two-player strategy game made for the ANNT PSI 2021 project. Players control knights on an 8x8 chessboard. The objective is to move your knight in such a way that your opponent is left with no valid moves. Knights move in typical chess L-shapes, and once a square is visited, it cannot be visited again. The game ends when one of the knights cannot make a valid move. The player with the immobile knight loses. The game provides the option to play against an AI agent, making it even more challenging.
 
 ![Screenshot of the Isolation Knight Game](./figs/game_screenshot.png)
 ## Installation
