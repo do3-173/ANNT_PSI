@@ -34,7 +34,7 @@ conda activate isolation_game
 With the environment activated, navigate to the Isolation Game directory and start the game:
 
 ```bash
-python isolation_game.py
+python3 isolation_game.py
 ```
 
 **Note:** The game uses images of knights for its GUI. These images are housed within the `figs` folder. Ensure this folder is in the same directory as `isolation_game.py` for the game to run correctly.
