@@ -92,15 +92,15 @@ class KnightAgent:
         )
         best_move = None
         best_value = -9999
-
         for move in self.warnsdorffs_rule(knight_pos):
             move_value = self.evaluate_position(move, self.lookahead_depth)
-            if move_value > best_value:
+            if move_value >= best_value:
                 best_value = move_value
                 best_move = move
 
         if best_move:
             self.game.on_square_click(best_move[0], best_move[1])
+
 
 
 class IsolationKnightGame:
